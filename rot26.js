@@ -1,4 +1,4 @@
-document.onclick = function() {
+window.onclick = function() {
   let string = prompt('What should I encrypt?')
 
   let httpr = new XMLHttpRequest();
