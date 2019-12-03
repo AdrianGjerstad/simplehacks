@@ -4,7 +4,7 @@ let string = prompt('What should I encrypt?')
 
 let httpr = new XMLHttpRequest();
 httpr.onreadystatechange = function() {
-  if(this.readyState == 4) {
+  if(true) {
     alert('Encrypted: ' + httpr.responseText)
   }
 }
